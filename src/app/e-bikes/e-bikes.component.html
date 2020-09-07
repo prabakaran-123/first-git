@@ -1,0 +1,48 @@
+<p>e-bikes works!</p>
+<p>
+    <ngb-alert [dismissible]="true">
+      <strong>Warning!</strong> Better check yourself, you're not looking too good.
+    </ngb-alert>
+  </p>
+  <p>
+    <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+     TO CAN LOGIN BY TOUCH THIS
+    </button>
+  </p>
+  <div id="collapseExample" [ngbCollapse]="isCollapsed">
+    <div class="card">
+      <div class="card-body">
+        USER MUST LOGIN
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div ngbDropdown class="d-inline-block">
+          <button class="btn btn-outline-primary" id="dropdownForm1" ngbDropdownToggle>Click Here To Login</button>
+          <div ngbDropdownMenu aria-labelledby="dropdownForm1">
+            <form class="px-4 py-3">
+              <div class="form-group">
+                <label for="exampleDropdownFormEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleDropdownFormPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                  Remember me
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <button ngbDropdownItem>New around here? Sign up</button>
+            <button ngbDropdownItem>Forgot password?</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
