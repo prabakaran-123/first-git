@@ -1,0 +1,17 @@
+{
+  "id": 5448,
+  "userId": 1,
+  "uuid": "THISISMYLASTPROJECT",
+  "name": "thisIsMyLastProject",
+  "description": "",
+  "usersApplication": 0,
+  "gitBranch": "test-git1",
+  "gitRootFolder": "/prabakaran",
+  "icon": "{\"type\":\"svg\",\"icon\":\"images/createApplications.svg\"}",
+  "tag": "THISISMYLASTPROJECT_5448",
+  "gitRepoUrl": "https://github.com/prabakaran-123/first-git.git",
+  "createdBy": "admin",
+  "dateCreated": "Jan 24, 2023 6:42:08 PM",
+  "updatedBy": "admin",
+  "dateLastUpdated": "Jan 24, 2023 6:44:05 PM"
+}
